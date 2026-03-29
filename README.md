@@ -1,6 +1,9 @@
-# skills
+# Daemon Protocol — Agent Skills
 
-A collection of [Daemon Protocol](https://daemonprotocol.com) agent skills.
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)](https://nodejs.org)
+
+A collection of [Daemon Protocol](https://daemonprotocol.com) agent skills for security, privacy, and blockchain intelligence.
 
 ## Install a skill
 
@@ -29,24 +32,10 @@ npx skills add ares-system/skills --all
 # Install all skills
 npx skills add ares-system/skills --all
 
-# Install individual skills
-npx skills add ares-system/skills --skill daemon-intelligence
-npx skills add ares-system/skills --skill ares-system
+# Install a specific skill
 npx skills add ares-system/skills --skill cyclops
-npx skills add ares-system/skills --skill obscura-privacy
-```
-
-## Adding a new skill
-
-Each skill is a folder with a `SKILL.md` inside:
-
-```
-skills/
-└── your-skill-name/
-    ├── SKILL.md          ← required, must have name + description frontmatter
-    └── references/       ← optional reference files loaded on demand
 ```
 
 ## License
 
-MIT
+This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
